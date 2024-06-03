@@ -40,6 +40,7 @@ This project aims to streamline the data pipeline for ingesting aviation data fr
    - Replace <local_file_path> with the path to your local file and <bucket_name>/<key_name> with the S3 bucket and key where you want to store the file. The key represents the object's name within the bucket.
 4. **AWS Glue Jobs**:
    - Employ AWS Glue for data transformation and preparation tasks as needed.
+   - But the file for the glue job in the s3 bucket in a temp directory
 5. **Data Loading to Redshift**:
    - Use AWS Redshift COPY command to load data from S3 into Redshift tables.
 
