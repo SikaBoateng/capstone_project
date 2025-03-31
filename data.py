@@ -5,7 +5,7 @@ import boto3
 redshift_cluster_endpoint = 'my-redshift-cluster.cqcffu7md9i7.us-west-2.redshift.amazonaws.com:5439/dev'
 redshift_database = 'dev'
 redshift_user = 'awsuser'
-redshift_password = 'YourPassword123'
+redshift_password = ' '
 redshift_port = '5439'
 
 # Replace these values with your IAM role and S3 bucket details
